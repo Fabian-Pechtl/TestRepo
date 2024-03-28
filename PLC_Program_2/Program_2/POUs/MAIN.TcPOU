@@ -4,13 +4,12 @@
     <Declaration><![CDATA[PROGRAM MAIN
 VAR
 	fbFactorial : IO.Factorial;
+	fbFactorial_2 : IO.Factorial;
 END_VAR
 ]]></Declaration>
     <Implementation>
-      <ST><![CDATA[fbFactorial(); ]]></ST>
+      <ST><![CDATA[fbFactorial(); 
+fbFactorial_2();]]></ST>
     </Implementation>
-    <LineIds Name="MAIN">
-      <LineId Id="2" Count="0" />
-    </LineIds>
   </POU>
 </TcPlcObject>
